@@ -22,5 +22,15 @@ data:extend(
     place_result = "assembling-machine-x",
     stack_size = 50
   },
+  {
+    type = "item",
+    name = "assembling-machine-z",
+    icon = "__AssemblyZero__/graphics/icons/assembling-machine-z.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "production-machine",
+    order = "a[assembling-machine-z]",
+    place_result = "assembling-machine-z",
+    stack_size = 50
+  },
 }
 )

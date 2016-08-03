@@ -1,9 +1,9 @@
 {
   "name": "AssemblyZero",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "factorio_version": "0.13",
   "title": "Assembling Machine Zero",
   "author": "raid and sunny",
   "homepage": "https://forums.factorio.com/viewtopic.php?f=120&t=29492",
-  "description": "Adds an Assembling Machine 0 and Z to Factorio. They are smaller variants using fewer ingredients."
+  "description": "Adds an Assembling Machine 0 and X to Factorio. They are smaller variants using fewer ingredients."
 }

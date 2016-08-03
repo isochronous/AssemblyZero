@@ -11,3 +11,9 @@ data.raw["technology"]["automation-2"].effects, {
 		recipe = "assembling-machine-x"
 	}
 )
+table.insert(
+data.raw["technology"]["automation-3"].effects, {
+		type = "unlock-recipe",
+		recipe = "assembling-machine-z"
+	}
+)
