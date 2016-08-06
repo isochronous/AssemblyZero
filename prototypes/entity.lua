@@ -19,14 +19,31 @@ data:extend({
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     -- fast_replaceable_group = "assembling-machine",
     animation = {
+	  layers =
+	{
+	 {
       filename = "__AssemblyZero__/graphics/entity/assembling-machine-0/assembling-machine-0.png",
       priority="high",
-      width = 33,
+      width = 39,
       height = 34,
       frame_count = 32,
       line_length = 8,
-      shift = {0.1, -0.1}
+      shift = {0.3, -0.1},
+	  scale = 1.1,
     },
+	{
+          filename = "__AssemblyZero__/graphics/entity/assembling-machine-0/assembling-machine-0-mask.png",
+          priority = "high",
+          width = 39,
+          height = 34,
+          frame_count = 32,
+          line_length = 8,
+          shift = {0.3, -0.1},
+          scale = 1.1,
+          tint = {r = 0.8, g = 0.8, b = 0.8},
+        },
+	}
+	},
     crafting_categories = {"crafting"},
     crafting_speed = 1.5, -- asembling-machine-1 has 0.5
     energy_source = {
@@ -76,14 +93,31 @@ data:extend({
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     -- fast_replaceable_group = "assembling-machine",
     animation = {
-      filename = "__AssemblyZero__/graphics/entity/assembling-machine-0/assembling-machine-x.png",
+	  layers =
+	{
+	 {
+      filename = "__AssemblyZero__/graphics/entity/assembling-machine-0/assembling-machine-0.png",
       priority="high",
-      width = 33,
+      width = 39,
       height = 34,
       frame_count = 32,
       line_length = 8,
-      shift = {0.1, -0.1}
+      shift = {0.3, -0.1},
+	  scale = 1.1,
     },
+	{
+          filename = "__AssemblyZero__/graphics/entity/assembling-machine-0/assembling-machine-0-mask.png",
+          priority = "high",
+          width = 39,
+          height = 34,
+          frame_count = 32,
+          line_length = 8,
+          shift = {0.3, -0.1},
+          scale = 1.1,
+          tint = {r = 0.7, g = 0.1, b = 0.1}, --offset r by -0.2
+        },
+	}
+	},
     crafting_categories = {"crafting"},
     crafting_speed = 3.5, -- asembling-machine-1 has 0.5
     energy_source = {
@@ -149,15 +183,31 @@ data:extend({
     selection_box = {{-1, -1}, {1, 1}},
     -- fast_replaceable_group = "assembling-machine",
     animation = {
+	  layers =
+	{
+	 {
       filename = "__AssemblyZero__/graphics/entity/assembling-machine-0/assembling-machine-z.png",
       priority="high",
-      width = 66,
-      height = 68,
+      width = 77,
+      height = 66,
       frame_count = 32,
       line_length = 8,
-      shift = {0.1, -0.1}
-	  --scale = 0.66,
+      shift = {0.4, -0.1},
+	  scale = 1.1,
     },
+	{
+          filename = "__AssemblyZero__/graphics/entity/assembling-machine-0/assembling-machine-z-mask.png",
+          priority = "high",
+          width = 77,
+          height = 66,
+          frame_count = 32,
+          line_length = 8,
+          shift = {0.4, -0.1},
+          scale = 1.1,
+          tint = {r = 0.5, g = 0.1, b = 0.7}, --offset all by -0.1
+        },
+	}
+	},
     crafting_categories = {"crafting"},
     crafting_speed = 5, -- asembling-machine-1 has 0.5
     energy_source = {
