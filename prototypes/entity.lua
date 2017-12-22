@@ -131,6 +131,7 @@ data:extend({
     {
       module_slots = 1
     },
+    allowed_effects = {"speed", "productivity", "consumption", "pollution"},
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -221,6 +222,7 @@ data:extend({
     {
       module_slots = 2
     },
+    allowed_effects = {"speed", "productivity", "consumption", "pollution"},
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
