@@ -118,7 +118,7 @@ data:extend({
         },
 	}
 	},
-    crafting_categories = {"crafting"},
+    crafting_categories = {"crafting", "advanced-crafting"},
     crafting_speed = 3.5, -- asembling-machine-1 has 0.5
     energy_source = {
       type = "electric",
@@ -209,7 +209,7 @@ data:extend({
         },
 	}
 	},
-    crafting_categories = {"crafting"},
+    crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 5, -- asembling-machine-1 has 0.5
     energy_source = {
       type = "electric",
